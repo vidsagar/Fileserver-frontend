@@ -33,7 +33,7 @@ const Login = () => {
             <input type="text" name="email" placeholder="example@email.com" value={email} onChange={handleEmailChange}/>
             Password:
             <input type="password" name="password" placeholder="password" value = {password} onChange={handlePasswordChange}/>
-            <button onClick={handleLogin}>Login</button>
+            <button onClick={handleLogin}>Log in</button>
         </div>
     )
     else
